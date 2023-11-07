@@ -107,6 +107,10 @@ h6 {
   src: url(../fonts/PT/PTSerif-Bold.ttf);
 }
 
+img {
+  object-fit: cover;
+}
+
 .block1{
     position: relative;
 }
@@ -180,6 +184,14 @@ h6 {
   font-weight: 400;
 }
 
+.min-text{
+  font-family: PT;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
 .text {
   font-family: PT;
   font-size: 20px;
@@ -217,6 +229,11 @@ h6 {
 
 .point {
   max-width: 20px;
+  max-height: 20px;
+}
+
+.point1 {
+  max-width: 48px;
   max-height: 20px;
 }
 
@@ -269,5 +286,133 @@ h6 {
   border-radius: 16px;
 }
 
+.form {
+  background-color: #FFF1DD;
+  border-radius: 16px;
+}
 
+.btn-light {
+  background-color: #fff;
+}
 
+.footer {
+  background-color: #0B1A13;
+}
+
+.rights {
+  border-top: 1px solid #fff;
+}
+
+.navbar-collapse {
+  flex-grow: 0.5;
+}
+
+.navbar {
+  --bs-navbar-toggler-icon-bg: url("data:image/svg+xml,<svg viewBox='0 0 16 16' fill='%23FFF' xmlns='http://www.w3.org/2000/svg'><path fill-rule='evenodd' d='M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z' clip-rule='evenodd'/></svg>");
+}
+
+.navbar-toggler {
+  border: none;
+}
+
+.navbar-toggler:focus {
+  box-shadow: none;
+}
+
+.toast {
+  --bs-toast-max-width: auto;
+}
+
+.modal-content {
+  background-color: #FFF1DD;
+  border-radius: 16px;
+  max-width: 300px;
+}
+
+.modal__img {
+  max-width: 80px;
+  max-height: 80px;
+}
+
+.modal__text {
+  color: #783232;
+  text-align: center;
+  font-family: PT;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+@media(max-width:1024px) {
+  .carousel{
+    height: 700px;
+  }
+  .carousel-inner{
+    height: 700px;
+  }
+}
+
+@media(max-width:768px) {
+  .block2__text {
+    max-width: 100%;
+  }
+
+  .h1 {
+    font-family: PT;
+    font-size: 36px;
+    font-weight: 800;
+  }
+
+  .h2 {
+    font-family: PT Serif;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+  }
+
+  .h3 {
+    font-family: PT Serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+  }
+
+  .big-text {
+    font-family: PT;
+    font-size: 20px;
+    font-weight: 400;
+  }
+  
+  .text {
+    font-family: PT;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+
+  .button-text {
+    font-family: PT;
+    font-size: 16px;
+    font-weight: 700;
+  }
+
+  .min-text{
+    font-family: PT;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+}
+
+@media(max-width:375px) {
+  .icons {
+    max-width: 24px;
+    max-height: 24px;
+  }
+}
